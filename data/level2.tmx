@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="player" tilewidth="16" tileheight="16">
+  <image source="../images/player.png" width="16" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="class" value="Player"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="wall" tilewidth="16" tileheight="16">
+  <image source="../images/wall.png" width="16" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="class" value="Wall"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="hazards" tilewidth="16" tileheight="16">
+  <image source="../images/spike.png" width="16" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="class" value="Spike"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt10EOgCAMBMBa//9n44GLkQjp0qVxJyFeQFshtpqJiIgI08EOQEQEwNkBAPjjWlHl2BvlsIesHM7OQMjcB+8MxH0zfMUbiSN7HxBzEGsiRp83G9eueczMZXxf0e+ZVSOQZ59Z5/6cx9s6ds+BqA/sHG7RGHbIoUGdLbYK9XrUinrIsqrXYuj1v6g+Phv6P0TMLq6DAI4=
+  </data>
+ </layer>
+</map>
